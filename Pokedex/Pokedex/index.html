@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+<body>
+    <h1>Pokedex Chipsito</h1>
+    
+    <div id="poke-left">
+        <div id="data-screen">
+            <div id="nombre" name="nombre">Name: </div><br>
+            <div id="img-container">
+                <img src="./pokeball.png" alt="Pokemon" id="pokeImg"><br><br>
+            </div>
+            <div id="data">
+                <div id="tipo" name="tipo">Type: </div><br>
+                <div id="stats" name="stats">Stats: </div><br>
+            </div>
+        </div>
+        <div class="circulo" style="bottom: 15%; left: 10%;"></div>
+        <div class="circulo" style="bottom: 16%; left: 35%; width: 40px; height: 40px;"></div>
+        <div class="rectangulo" style="bottom: 18%; right: 10%;"></div>
+        <br><input type="text" placeholder="pikachu" id="pokeName" name="pokeName"><br>
+        <br><button id="ejecutar" onclick="fetchPokemon()">Ir</button><br>
+    </div>
+    
+    <div id="poke-right">
+        <div id="borde"></div>
+        <div id="moves-screen">
+            <div id="moves" name="moves">Moves: </div><br>
+        </div>
+    </div>
+    
+    
+    
+</body>
+<footer>
+    <script src="./index.js"></script>
+</footer>
+</html>
